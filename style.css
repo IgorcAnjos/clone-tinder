@@ -18,9 +18,19 @@ body {
 .navbar i {
   font-size: 1.5rem;
   color: #dadfe6;
+  cursor: pointer;
 }
 .navbar i:nth-child(1) {
   color: #fe466d;
+}
+.navbar i:nth-child(1):hover {
+  color: #e31844;
+}
+.navbar i:nth-child(2):hover {
+  color: #1f92d4;
+}
+.navbar i:nth-child(3):hover {
+  color: #11b880;
 }
 .photo-an-actions {
   height: calc(100vh - 44px);
@@ -88,6 +98,9 @@ body {
 .actions .action:nth-child(1) {
   color: #fd5068;
 }
+.actions .action:nth-child(1):hover {
+  color: #fe466d;
+}
 .actions .action:nth-child(2) {
   margin: 0 1.4rem;
   height: 40px;
@@ -95,8 +108,18 @@ body {
   font-size: 1.5rem;
   color: #2db1ff;
 }
+.actions .action:nth-child(2):hover {
+  margin: 0 1.4rem;
+  height: 40px;
+  width: 40px;
+  font-size: 1.5rem;
+  color: #1f92d4;
+}
 .actions .action:nth-child(3) {
   color: #1be4a1;
+}
+.actions .action:nth-child(3):hover {
+  color: #11b880;
 }
 
 /* desktop view */
